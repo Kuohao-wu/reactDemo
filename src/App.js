@@ -16,7 +16,8 @@ class App extends Component {
   }
   watchReset = () => {
     this.setState({
-      milliseconds: 0
+      milliseconds: 0,
+      timeList: []
     })
   }
   watchPause = () => {

@@ -1,5 +1,6 @@
 import React from 'react'
 
+// controlButton 为纯函数，不包含自身state
 const ControlButtons = props => {
   const { activated, onStart, onPause, onReset, onSplit } = props
   if (!activated) {
